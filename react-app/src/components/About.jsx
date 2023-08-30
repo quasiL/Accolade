@@ -12,9 +12,9 @@ function About({scrollToSection}) {
     <div className="relative">
       <div className="bg-white w-6/12 mt-20 py-24 px-60 relative">
         <div>
-          <p className={`${titleText} tracking-[2px] whitespace-nowrap`}>ZIELISTKA GREEN ORANGE-</p>
+          <p className={`${titleText} tracking-[4px] whitespace-nowrap`}>ZIELISTKA GREEN ORANGE-</p>
           <div className="flex items-center gap-6 cursor-pointer">
-            <p className={`${titleText} tracking-[2px] whitespace-nowrap`}>PIELĘGNACJA</p>
+            <p className={`${titleText} tracking-[4px] whitespace-nowrap`}>PIELĘGNACJA</p>
             <img alt="logo" src={Leaves} className="w-12 h-auto"/>
           </div>
         </div>

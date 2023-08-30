@@ -23,7 +23,7 @@ function App() {
       <section>
         <About scrollToSection={scrollToSection}/>
       </section>
-      <section id="target-section" className="grid grid-cols-2 gap-x-8 gap-y-8 mx-60 mt-32 mb-60">
+      <section id="target-section" className="grid grid-cols-2 gap-x-8 gap-y-8 mx-52 mt-32 mb-60">
         <Card number="1" title="NA DOBRY POCZĄTEK"
               text="Dostarczona roślina została posadzona w świeżej ziemi. Zaleca
               się niepodlewanie rośliny przez najbliższy tydzień- licząc od dnia dostawy."

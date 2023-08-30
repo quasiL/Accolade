@@ -6,7 +6,7 @@ function Card({number, title, text, popup}) {
 
   const [isHovered, setIsHovered] = useState(false);
 
-  const titleText = "text-56 text-black-500 font-gothamGothic leading-74 font-700";
+  const titleText = "text-56 text-black-500 font-gothamGothic leading-74 font-700 tracking-[2px]";
   const regularText = "text-15 text-black-500 font-gothamBook leading-24 font-325";
   const numberText = "text-8xl text-gray-100 font-gothamGothic leading-74 font-325";
 
@@ -30,7 +30,7 @@ function Card({number, title, text, popup}) {
           </div>
           {isHovered && (
             <div className="absolute m-8 z-10">
-              <img src={Flower2} alt="Hovered Image" className="h-40 w-40" />
+              <img src={Flower2} alt="Hovered Image" className="h-40 w-40"/>
             </div>
           )}
         </div>
