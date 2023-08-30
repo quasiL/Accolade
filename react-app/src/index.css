@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('src/fonts/Gotham/GothamBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('src/fonts/Gotham/GothamBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('src/fonts/Gotham/GothamMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Gothic';
+    src: url('src/fonts/Gotham/TrumpGothicProBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: 'Gotham Book', sans-serif;
+    @apply text-black-500;
+    background-color: #EDF4F7;
+}
+
+#logo {
+    position: absolute;
+    left: 3.33%;
+    right: 95.41%;
+    top: 0.28%;
+    bottom: 0.98%;
+    background: #40BFEF;
+    width: 24px;
+    height: 41px;
+}
