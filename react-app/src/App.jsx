@@ -6,7 +6,7 @@ import Card from "./components/Card.jsx";
 function App() {
 
   const scrollToSection = () => {
-    const targetSection = document.getElementById('target-section'); // Replace with the actual id of the target section
+    const targetSection = document.getElementById('target-section');
     if (targetSection) {
       window.scrollTo({
         top: targetSection.offsetTop,
